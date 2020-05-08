@@ -12,17 +12,15 @@ define("glob_lang", "en");
 //Navigation
 $navigation = [
     "Home" => "1",
-    "Users" => "1",
-    "Datamaster" => "1",
-    "Settings" => "1"
+    "DB Master" => "1",
+    "Data Master" => "1",
 ];
 define("glob_sidebar_items", $navigation);
 
 $navigation_icons = [
-    "Home" => "fa-link",
-    "Users" => "fa-users",
-    "Datamaster" => "fa-youtube",
-    "Settings" => "fa-cogs"
+    "Home" => "fa-home",
+    "DB Master" => "fa-database",
+    "Data Master" => "fa-server",
 ];
 define("glob_sidebar_item_icons", $navigation_icons);
  

@@ -1,6 +1,3 @@
 <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        
-    </div>
-    <strong>Copyright &copy; <?php echo date('Y'); ?> <a href="#">GamersMarket</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; <?php echo date('Y'); ?> <a href="https://jonnymoebjerg.com">Jonny Møbjerg</a>.</strong> All rights reserved.
 </footer>

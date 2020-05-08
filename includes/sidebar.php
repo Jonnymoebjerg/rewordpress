@@ -19,7 +19,7 @@
                         
                         $item_icon = glob_sidebar_item_icons[$item_name];
                         
-                        echo '<li' . $item_class . '><a href="' . $item_link . '.php"><i class="fa ' . $item_icon .'"></i> <span>' . $item_name . '</span></a></li>';
+                        echo '<li' . $item_class . '><a href="' . str_replace(' ', '', $item_link) . '.php"><i class="fa ' . $item_icon .'"></i> <span>' . $item_name . '</span></a></li>';
                     }
                 }
             ?>
