@@ -7,7 +7,7 @@
             $title = "Home";
         } else if ($currpage === "datamaster") {
             if ($table != "") {
-                $title = ucfirst($table) . " | Datamaster";
+                $title = ucfirst($table) . " | ReWordpress";
             } else {
                 $title = "Datamaster";
             }
@@ -15,7 +15,7 @@
             $title = ucfirst($currpage);   
         }
     ?>
-    <title><?php echo $title; ?> | The CMS</title>
+    <title><?php echo $title; ?></title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/a0f661424f.js"></script>
